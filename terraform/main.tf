@@ -23,7 +23,7 @@ provider "aws" {
 }
 
 resource "aws_iam_role" "apprunner_role" {
-  name = "apprunner-service-role"
+  name = "express-service-role"
   assume_role_policy = jsonencode({
     Version = "2012-10-17",
     Statement = [{
