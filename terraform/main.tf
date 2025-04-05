@@ -33,7 +33,7 @@ resource "aws_apprunner_service" "backend_service" {
     auto_deployments_enabled = true
 
     code_repository {
-      repository_url = "https://github.com/Zabihkeraam1/final-deployment.git"
+      repository_url = "https://github.com/Zabihkeraam1/express.git"
       source_code_version {
         type  = "BRANCH"
         value = "master"
